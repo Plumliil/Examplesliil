@@ -1,0 +1,10 @@
+// import blog20221221 from "./examples/blog/221221.vue";
+import blogs from "../examples/blog/index";
+import tools from "../examples/tool/index";
+import tests from "../components/test/index";
+import demos from "../examples/demo/index";
+let blogComponents: any = { ...blogs };
+let toolComponents: any = { ...tools };
+let testComponents: any = { ...tests };
+let demoComponents: any = { ...demos };
+export { blogComponents, toolComponents, testComponents, demoComponents };
